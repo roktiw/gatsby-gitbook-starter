@@ -1,8 +1,10 @@
 ---
-title: "Sub Page"
+title: "3-Sub Page 3"
 metaTitle: "Syntax Highlighting is the meta title tag for this page"
 metaDescription: "This is the meta description for this page"
 ---
+
+3-Sub Page 3 czy to faktycznie jest dodana 3 strona sub
 
 Dodana linijka tekstu zasadniczo
 
