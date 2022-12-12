@@ -4,16 +4,21 @@ metaTitle: "2022-06-17-10-14 roktiw Windows Essential Apps "
 metaDescription: "2022-06-17-10-14 roktiw Windows Essential Apps
 ---
 
-For ADHD remove colours with key combination
-crtl win c 
+# What to do after installing Windows 10 
 
-Windows10Debloater
+## Install Chocolately
+Command line package installer
+[https://chocolatey.org/](https://chocolatey.org/install)
+
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 
 
 1. Web Browser
 1. google-chrome
 2. Package installer
-1. Choco https://chocolatey.org/
+1. Choco 
 3. Package manager for .zip, .rar files
 1. 7zip https://www.7-zip.org/
 4. Text editor
@@ -72,3 +77,8 @@ choco upgrade all
 
 ### Remove Cortana
 ```Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage```
+
+For ADHD remove colours with key combination
+crtl win c 
+
+Windows10Debloater
