@@ -14,6 +14,15 @@ Command line package installer
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
+From now on install almost all apps using Chocolately
+
+## Install Web Browser - Google Chrome
+Web browser from Google
+https://www.google.com/chrome/
+```
+choco install googlechrome
+```
+
 
 1. Web Browser
 1. google-chrome
