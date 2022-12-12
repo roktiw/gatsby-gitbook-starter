@@ -10,7 +10,9 @@ metaDescription: "2022-06-17-10-14 roktiw Windows Essential Apps
 
 ### Chocolately
 Command line package installer
+
 [https://chocolatey.org/](https://chocolatey.org/install)
+
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
@@ -28,62 +30,85 @@ choco upgrade all
 
 ### Google Chrome
 Web browser from Google
+
 [https://www.google.com/chrome/](https://www.google.com/chrome/)
+
 ```
 choco install googlechrome
 ```
 
 ### Adguard
 Block Ads systemvide (in every Web Browser and app) - Get rid of mindmelting all around you advertising.
+
 https://adguard.com/
+
 You have to install it by downloading package. Installing from Choco did not work for me.
+
 Note to self: is there AdGuard alternative: app just for simple filtering the HTTP/HTTPS request using the open source lists
 
 ### 7zip
 Package manager for .zip, .rar files. It is open source under GNU LGPL licence - so better than winrar.
+
 [https://www.7-zip.org/](https://www.7-zip.org/)
+
 https://community.chocolatey.org/packages/7zip
+
 ```
 choco install 7zip
 ```
 
 ### VLC Media Player
+
 [https://www.videolan.org/vlc/
 ](https://www.videolan.org/vlc/)
+
 https://community.chocolatey.org/packages/vlc
+
 ```
 choco install vlc
 ```
 
 ### CCleaner
 Program to maintain clean Windows install.
+
 https://www.ccleaner.com/
+
 https://community.chocolatey.org/packages/ccleaner
+
 ```
 choco install ccleaner
 ```
 
 ### Google Drive
 There is no cloud it's just someone else's computer.
+
 https://www.google.com/drive/
+
 https://community.chocolatey.org/packages/googledrive
+
 ```
 choco install googledrive
 ```
 
 ### f.lux
 Blue light buster.
+
 https://justgetflux.com/
+
 https://community.chocolatey.org/packages/f.lux
-```
 
 ```
+choco install f.lux
+```
+
 
 ## Essentials - Microsoft Store
 
 ### AutoDark Mode
 Swithces automatically Windows theme betwiin Light and Dark
+
 https://github.com/AutoDarkMode/Windows-Auto-Night-Mode
+
 https://apps.microsoft.com/store/detail/auto-dark-mode/XP8JK4HZBVF435
 
 Set up hours for ```Night Light``` in Windows 10
