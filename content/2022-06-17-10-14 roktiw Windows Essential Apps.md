@@ -4,9 +4,9 @@ metaTitle: "2022-06-17-10-14 roktiw Windows Essential Apps "
 metaDescription: "2022-06-17-10-14 roktiw Windows Essential Apps
 ---
 
-# What to do after installing Windows 10 
+# What to do or install after installing Windows 10 
 
-## Install Chocolately
+## Chocolately
 Command line package installer
 [https://chocolatey.org/](https://chocolatey.org/install)
 
@@ -16,20 +16,37 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 From now on install almost all apps using Chocolately
 
-## Install Web Browser - Google Chrome
+## Web Browser - Google Chrome
 Web browser from Google
-https://www.google.com/chrome/
+[https://www.google.com/chrome/](https://www.google.com/chrome/)
 ```
 choco install googlechrome
 ```
 
+## Block Ads systemvide (in every Web Browser and app) - Get rid of mindmelting all around you advertising - AdGuard
+AdGuard
+https://adguard.com/
+You have to install it by downloading package 
 
-1. Web Browser
-1. google-chrome
-2. Package installer
-1. Choco 
-3. Package manager for .zip, .rar files
-1. 7zip https://www.7-zip.org/
+Note to self: is there AdGuard alternative: app just for simple filtering the HTTP/HTTPS request using the open source lists
+
+## 7zip
+Package manager for .zip, .rar files. It is open source under GNU LGPL licence - so better than winrar.
+[https://www.7-zip.org/](https://www.7-zip.org/)
+```
+choco install 7zip
+```
+
+## VLC Media Player
+[https://www.videolan.org/vlc/
+](https://www.videolan.org/vlc/)
+
+https://community.chocolatey.org/packages/vlc
+
+```
+choco install vlc
+```
+
 4. Text editor
 1. Visual Studio Code https://code.visualstudio.com/
 2. Microsoft Word https://www.microsoft.com/en-ww/microsoft-365/word
