@@ -1,8 +1,16 @@
 ﻿---
-title: "2022-06-17-10-14 roktiw Windows Essential Apps"
-metaTitle: "2022-06-17-10-14 roktiw Windows Essential Apps "
-metaDescription: "2022-06-17-10-14 roktiw Windows Essential Apps
+title: "Reinstall Windows 10 and install essential"
+metaTitle: "Reinstall Windows 10 and install essential"
+metaDescription: "Reinstall Windows 10 and install essential"
 ---
+
+# Reinstall
+1. Backup files to external HDD
+2. Get `Windows 10 Media Creation Tool` from https://www.microsoft.com/en-us/software-download/windows10
+3. Dowload ISO
+4. Get Rufus https://rufus.ie/
+5. Customize Windows instalation i.e. select options local account and protect privacy
+6. Install
 
 # What to do or install after installing Windows 10 
 
