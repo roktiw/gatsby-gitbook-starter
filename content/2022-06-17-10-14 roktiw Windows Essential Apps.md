@@ -137,6 +137,7 @@ https://apps.microsoft.com/store/detail/dynamic-theme/9NBLGGH1ZBKW
 ### Microsoft Power Toys
 https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD
 
+---
 
 ## Plywood - Work
 
@@ -147,6 +148,45 @@ choco install autodesk-fusion360
 
 ### Vcarve
 https://www.vectric.com/products/vcarve-pro
+
+
+---
+
+# Tweaks
+
+## Menu Start
+Remove all icons from right panel using `uninstall` if possible.
+
+Remove all unnecessary apps.
+
+
+## Taskbar
+
+### Turn off
+Cortana
+
+Search Icon
+
+### Pin to Taskbar
+Settings
+
+Microsoft Store
+
+PowerShell
+
+Windows Explorer
+
+Fusion360
+
+Vcarve
+
+Google Chrome
+
+
+## System Tray
+
+### Always showa all icons
+
 
 
 ## NON ESSENTIAL
@@ -215,3 +255,4 @@ For ADHD remove colours with key combination
 3. Allow the shortcut ```crtl win c``` 
 
 ### Windows10Debloater
+https://github.com/Sycnex/Windows10Debloater
