@@ -154,6 +154,12 @@ https://www.vectric.com/products/vcarve-pro
 
 # Tweaks
 
+## Taskbar
+Move on top.
+
+It is better to by default look up not down.
+
+
 ## Menu Start
 Remove all icons from right panel using `uninstall` if possible.
 
@@ -166,6 +172,7 @@ Remove all unnecessary apps.
 Cortana
 
 Search Icon
+
 
 ### Pin to Taskbar
 Settings
@@ -186,7 +193,6 @@ Google Chrome
 ## System Tray
 
 ### Always showa all icons
-
 
 
 ## NON ESSENTIAL
