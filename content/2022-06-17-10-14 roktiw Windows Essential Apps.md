@@ -90,6 +90,17 @@ https://community.chocolatey.org/packages/googledrive
 choco install googledrive
 ```
 
+### windirstat
+Visually identify huge files and folders. It is GNU GPL compared to TreeSize. Support FLOSS software!
+
+https://windirstat.net/
+
+https://community.chocolatey.org/packages/windirstat
+
+```
+choco install windirstat
+```
+
 ### f.lux
 Blue light buster.
 
@@ -137,8 +148,11 @@ https://www.vectric.com/products/vcarve-pro
 
 ### Rufus - USB Creator
 Burn ISO with Windows to USB key pendrive.
+
 https://rufus.ie/en/
+
 https://community.chocolatey.org/packages/rufus
+
 ```
 choco install rufus
 ```
@@ -169,15 +183,20 @@ HWINFO64
 
 ### VPN
 Nord VPN
+
 OpenVPN
+
 VireGuard
 
 ### File Transfer
 FileZilla
+
 Transmission
 
-Disk analyzer
-27. windirstat
+### Disk analyzer
+windirstat
+
+
 28. 
 Most of these Windows essential apps you can install with one command using Choco. It is much more convenient than going to each website and downloading packages. Just run Power Shell as Administrator terminal and type in:
 choco install 7zip, vscode, libreoffice, gimp, inkscape, audacity, teamviewer, ditto, ccleaner, f.lux
